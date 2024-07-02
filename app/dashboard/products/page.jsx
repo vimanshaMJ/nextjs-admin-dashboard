@@ -11,7 +11,7 @@ const ProductPage = () => {
       <div className={styles.top}>
         <Search placeholder="Search for a product..." />
 
-        <Link href="/dashboard/products/add">
+        <Link href="/dashboard/products/test">
           <button className={styles.addButton}>Add New</button>
         </Link>
       </div>
@@ -43,40 +43,6 @@ const ProductPage = () => {
               </div>
             </td>
 
-            <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</td>
-            <td>30.06.2024</td>
-            <td>$999</td>
-            <td>72</td>
-            <td>
-              <div className={styles.buttons}>
-                <Link href="/">
-                  <button className={`${styles.button} ${styles.view}`}>
-                    View
-                  </button>
-                </Link>
-                <Link href="/">
-                  <button className={`${styles.button} ${styles.delete}`}>
-                    Delete
-                  </button>
-                </Link>
-              </div>
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              <div className={styles.product}>
-                <Image
-                  src="/noproduct.jpg"
-                  alt=""
-                  width={40}
-                  height={40}
-                  className={styles.productImage}
-                />
-                IPhone
-              </div>
-            </td>
-
             <td>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
               eius.
@@ -86,7 +52,7 @@ const ProductPage = () => {
             <td>72</td>
             <td>
               <div className={styles.buttons}>
-                <Link href="/">
+                <Link href="/dashboard/products/test">
                   <button className={`${styles.button} ${styles.view}`}>
                     View
                   </button>
